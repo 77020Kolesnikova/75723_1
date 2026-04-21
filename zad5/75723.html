@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>CV - Makarova Marta</title>
+<link id="theme-style" rel="stylesheet" href="red.css">
+</head>
+<script src="script.js"></script>
+<body>
+<header>
+    <h1>MAKAROVA MARTA</h1>
+    <p>Warszawa • +48 792 466 930 • makarova.mart.kt@gmail.com</p>
+</header>
+<div class="buttons">
+<button onclick="changeTheme()">Zmień motyw</button>
+    <button onclick="toggleSkills()">Ukryj / pokaż Umiejętności</button>
+</div>
+  
+  <section>
+    <h2>Kontakt</h2>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Imię"><br>
+        <small id="nameError"></small><br>
+
+        <input type="text" id="surname" placeholder="Nazwisko"><br>
+        <small id="surnameError"></small><br>
+
+        <input type="text" id="email" placeholder="E-mail"><br>
+        <small id="emailError"></small><br>
+
+        <textarea id="message" placeholder="Wiadomość"></textarea><br>
+        <small id="messageError"></small><br>
+
+        <button type="submit">Wyślij</button>
+    </form>
+
+    <p id="successMessage"></p>
+</section>
+  
+<main>
+
+    <!-- Kontakt -->
+    <section>
+        <h2>Kontakt</h2>
+        <p>Email: <a href="mailto:makarova.mart.kt@gmail.com">makarova.mart.kt@gmail.com</a></p>
+        <p>Telefon: <a href="tel:+48792466930">+48 792 466 930</a></p>
+        <p>Miasto: Warszawa</p>
+
+        <p>
+            <a href="https://github.com/Omillou17" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </p>
+        <p>
+            <a href="https://www.linkedin.com/in/marta-makarova-4b0010352/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </p>
+
+        <img src="zdjecie.jpg" alt="Zdjęcie profilowe">
+    </section>
+
+    <!-- O mnie -->
+    <section>
+        <h2>O mnie</h2>
+        <p>
+            Jestem początkującym specjalistą w dziedzinie IT z podstawowym wykształceniem technicznym oraz dużą motywacją do rozwoju zawodowego. 
+            Posiadam praktyczne doświadczenie w pracy z systemami operacyjnymi, sieciami komputerowymi oraz bazami danych. 
+            Interesuję się nowoczesnymi technologiami, w szczególności sztuczną inteligencją oraz analizą danych.
+        </p>
+        <p>
+            Regularnie rozwijam swoje umiejętności poprzez naukę własną oraz realizację projektów. 
+            Jestem osobą odpowiedzialną, dobrze zorganizowaną i gotową do pracy zespołowej.
+        </p>
+    </section>
+
+    <!-- Umiejętności -->
+    <section id="skills">
+        <h2>Umiejętności</h2>
+        <ul>
+            <li>Systemy operacyjne: Windows (średni), Linux (podstawowy/średni)</li>
+            <li>Obsługa terminala i systemu plików</li>
+            <li>Podstawy sieci komputerowych (model OSI, TCP/IP, adresacja IP)</li>
+            <li>Bazy danych: SQL Server, Microsoft Access</li>
+            <li>Microsoft Excel – analiza danych</li>
+            <li>Podstawy algorytmów i struktur danych</li>
+        </ul>
+    </section>
+
+    <!-- Doświadczenie -->
+    <section>
+        <h2>Doświadczenie</h2>
+
+        <article>
+            <h3>Projekt: Baza danych (SQL Server)</h3>
+            <p>
+                Tworzenie i zarządzanie bazą danych w środowisku SQL Server Management Studio. 
+                Projekt obejmował projektowanie tabel, relacji oraz zapytań SQL.
+            </p>
+        </article>
+
+        <article>
+            <h3>Kurs Cisco – Podstawy sieci</h3>
+            <p>
+                Ukończenie kursu obejmującego podstawy działania sieci komputerowych, 
+                konfigurację urządzeń oraz analizę protokołów sieciowych.
+            </p>
+        </article>
+
+    </section>
+
+    <!-- Edukacja -->
+    <section>
+        <h2>Edukacja</h2>
+        <p><strong>Akademia Finansów i Biznesu Vistula (Warszawa)</strong><br>
+        Kierunek: Inżynieria sztucznej inteligencji (od 2025)</p>
+
+        <p><strong>Galicyjski Kolegium</strong><br>
+        Kierunek: Informatyka (2022 – 2025)</p>
+    </section>
+
+    <!-- Projekty -->
+    <section>
+        <h2>Projekty</h2>
+        <ul>
+            <li>Projekt bazy danych w SQL Server</li>
+            <li>Strona internetowa CV (HTML + CSS)</li>
+            <li>Podstawowe projekty związane z analizą danych w Excel</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Makarova Marta</p>
+</footer>
+
+</body>
+</html>
